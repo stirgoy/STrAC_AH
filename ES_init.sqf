@@ -48,7 +48,7 @@ SC_AH_canLoad = true;	//Aranca STrAC_AH
 /*
 Si solo pones: ( SC_AH_canLoad = true;) se cargara la configuracion predeterminada:
 
-    SC_AH_AFK = true;			//anti AFK
+    		SC_AH_AFK = true;			//anti AFK
 		SC_AH_AFKT = 5;				//tiempo en minutos para kick
 
 		SC_AH_AVA = false;		//anti virtual arsenal
