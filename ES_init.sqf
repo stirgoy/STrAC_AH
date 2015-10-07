@@ -34,7 +34,7 @@ SC_AH_DBL = [];
 //Activar contador de addons. si el jugador no tiene la cantidad establecida lo echara del servidor
 SC_AH_MC = false;
 //numero de addons a comparar ( para saber cuantos mods estas usando entra en el editor, crea cualquier unidad, click en Vista previa, una vez cargado pulsa ESC, veras la consola de depuracion, en VER escrive: (count(configFile >> "cfgPatches")), justo debajo saldra el numero que necesitas
-SC_AH_MCT = 536;	//Arma 3 sin Mods v 1.50
+SC_AH_MCT = 537;	//Arma 3 v 1.50 + STrAC_AH sin Mods
 
 //Activar llamada a funcion personalizada: puedes llamar a cualquier script declarado en tu mision o mods una vez STrAC detecte un hack.
 SC_AH_CustomCall
