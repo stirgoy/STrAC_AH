@@ -34,7 +34,7 @@ SC_AH_DBL = [];
 //Activate addon count. if player have diferent number of count STrAC kick
 SC_AH_MC = false;
 //Number of addons count to compare ( to know count mods you have, run mission editor, create new unit, click on preview, in game press ESC and write in watch of debug console: (count(configFile >> "cfgPatches")), this get you te number of addons just down.
-SC_AH_MCT = 536;	//Arma 3 sin Mods v 1.50
+SC_AH_MCT = 537;	//Arma 3 v 1.50 + STrAC_AH without Mods
 
 //Activate call custom function: you can call any script placed in your mission or mods if STrAC catch hack.
 SC_AH_CustomCall = false;
