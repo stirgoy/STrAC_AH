@@ -31,6 +31,11 @@ SC_AH_CD = true;
 //numero del display no permitido ejemplo:[54687,89898]  //STrAC STrAC tien una lista de algunos displays // la consola de depuracion puclica esta añadida en la lista
 SC_AH_DBL = [];
 
+//Activar contador de addons. si el jugador no tiene la cantidad establecida lo echara del servidor
+SC_AH_MC = false;
+//numero de addons a comparar ( para saber cuantos mods estas usando entra en el editor, crea cualquier unidad, click en Vista previa, una vez cargado pulsa ESC, veras la consola de depuracion, en VER escrive: (count(configFile >> "cfgPatches")), justo debajo saldra el numero que necesitas
+SC_AH_MCT = 536;	//Arma 3 sin Mods v 1.50
+
 //Activar llamada a funcion personalizada: puedes llamar a cualquier script declarado en tu mision o mods una vez STrAC detecte un hack.
 SC_AH_CustomCall
 //Nombre de la funcion a llamar si STrAC caza un hacker ( no se usa en AFK ) ejemplo: SC_SPAWN = "MYTAG_fnc_BanearEnDB"; ( la llamada solo afecta al hacker )
