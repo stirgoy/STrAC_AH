@@ -44,3 +44,28 @@ SC_SPAWN = "";
 SC_SPAWNP = [];
 
 SC_AH_canLoad = true;	//Start STrAC_AH
+
+
+/*
+If only use: ( SC_AH_canLoad = true;) The default settings are loaded:
+
+    SC_AH_AFK = true;			//anti AFK
+		SC_AH_AFKT = 5;				//time in minutes to kick
+
+		SC_AH_AVA = false;		//anti virtual arsenal
+		SC_AH_AVAM = [];			//marker positions of allowed virtual arsenal
+		SC_AH_AVAD = 20;			//distance to allow use of virtual arsenal
+
+		SC_AH_VBL = true;			//Variable Black List
+		SC_AH_AVBL = [];			//Array of variable BL
+
+		SC_AH_CD = true;			//display check
+		SC_AH_DBL = [];				//Display BL
+
+		SC_AH_MC = false;			//count of addons
+		SC_AH_MCT = 0;				//max addon count
+
+		SC_AH_CustomCall = false;	//Activate custom function
+		SC_SPAWN = "";				    //Function to spawn
+		SC_SPAWNP = [];				    //Params of function
+*/
