@@ -44,3 +44,27 @@ SC_SPAWN = "";
 SC_SPAWNP = [];
 
 SC_AH_canLoad = true;	//Aranca STrAC_AH
+
+/*
+Si solo pones: ( SC_AH_canLoad = true;) se cargara la configuracion predeterminada:
+
+    SC_AH_AFK = true;			//anti AFK
+		SC_AH_AFKT = 5;				//tiempo en minutos para kick
+
+		SC_AH_AVA = false;		//anti virtual arsenal
+		SC_AH_AVAM = [];			//posiciones virtual arsenal
+		SC_AH_AVAD = 20;			//distancia de posiciones virtual arsenal
+
+		SC_AH_VBL = true;			//Variable Black List
+		SC_AH_AVBL = [];			//Array variable BL
+
+		SC_AH_CD = true;			//display check
+		SC_AH_DBL = [];				//Display BL
+
+		SC_AH_MC = false;			//Contador de addons
+		SC_AH_MCT = 0;				//max mod count
+
+		SC_AH_CustomCall = false;	//activador Function a hacer spawn
+		SC_SPAWN = "";				    //Function a hacer spawn
+		SC_SPAWNP = [];				    //Parametros funcion
+*/
