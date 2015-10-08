@@ -70,4 +70,5 @@ Si solo pones: ( SC_AH_canLoad = true;) se cargara la configuracion predetermina
 		SC_AH_CustomCall = false;	//activador Function a hacer spawn
 		SC_SPAWN = "";				    //Function a hacer spawn
 		SC_SPAWNP = [];				    //Parametros funcion
+		SC_SPAWNM = -1				    //tipo del llamada
 */
