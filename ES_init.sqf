@@ -42,6 +42,9 @@ SC_AH_CustomCall
 SC_SPAWN = "";
 //parametros de la llamada personalizada
 SC_SPAWNP = [];
+//Modo de llamada:	0 = BIS_fnc_MP, 1 = call, 2= spawn, 3= execVM (requiere ruta completa de script)
+//call y spawn permiten el uso de codigo sin compilar ejemplo: SC_SPAWN = "{hint ""cazado"";}";
+SC_SPAWNM = -1;
 
 SC_AH_canLoad = true;	//Aranca STrAC_AH
 
