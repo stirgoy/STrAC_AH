@@ -71,4 +71,5 @@ If only use: ( SC_AH_canLoad = true;) The default settings are loaded:
 		SC_AH_CustomCall = false;	//Activate custom function
 		SC_SPAWN = "";				    //Function to spawn
 		SC_SPAWNP = [];				    //Params of function
+		SC_SPAWNM = -1				    //type of call
 */
