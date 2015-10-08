@@ -42,6 +42,9 @@ SC_AH_CustomCall = false;
 SC_SPAWN = "";
 //params for personal call
 SC_SPAWNP = [];
+//Call mode:	0 = BIS_fnc_MP, 1 = call, 2= spawn, 3= execVM (exxecVM requires full script path)
+//call and spawn allow the use of code without compiling, example: SC_SPAWN = "{hint ""hunted"";}";
+SC_SPAWNM = -1;
 
 SC_AH_canLoad = true;	//Start STrAC_AH
 
